@@ -1,0 +1,77 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.nav{
+    padding: 0%;
+    margin: auto;
+}
+
+.nav-link {
+    color: grey;
+}
+
+.colorverde {
+    color: green !important;
+}
+.colorblanco {
+    color: white;
+}
+
+.row {
+margin-top: 2%;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
+h2 {
+text-align: center;
+font-size: 1rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.form-control-lg {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: rgb(181, 226, 254);
+
+}
+
+
+#ticketsBorar {
+    margin-top: 1%;
+    margin-left: 42%;
+    margin-bottom: 1%;
+}
+
+#ticketsResumen {
+
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+
+footer {
+    background-color: #1b455b;
+    padding: 1%;
+    margin: 0%;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 5%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+}

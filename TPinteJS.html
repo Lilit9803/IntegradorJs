@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComprarTickets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="TPinteJS.css">
+    <script src="TPinteJS.js"></script>
+</head>
+<body>
+      <nav class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> Conf Bs As</a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link colorblanco" href="#">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link colorverde" href="#">Comprar tickets</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="contenedor1">
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <div class="card border-info text-center mb-3" style="max-width: 18rem; margin: 1%">
+        <div class="card-body">
+          <h1 class="card-title">Estudiante</h1>
+          <p class="card-text">Tiene un descuento</p>
+          <h1>80%</h1>
+          <p class = "requisito">*presentar documentación</p>
+        </div>
+       </div>
+
+       <div class="card border-success text-center mb-3" style="max-width: 18rem; margin: 1%">
+        <div class="card-body">
+          <h1 class="card-title">Trainee</h1>
+          <p class="card-text">Tiene un descuento</p>
+          <h1>50%</h1>
+          <p class = "requisito">*presentar documentación</p>
+        </div>
+       </div>
+
+       <div class="card border-warning text-center mb-3" style="max-width: 18rem; margin: 1%">
+        <div class="card-body">
+          <h1 class="card-title">Junior</h1>
+          <p class="card-text">Tiene un descuento</p>
+          <h1>15%</h1>
+          <p class = "requisito">*presentar documentación</p>
+        </div>
+       </div>
+    </div>
+</div>
+
+<h2>VENTA</h2>
+<h3>VALOR DE TICKET $200</h3>
+
+
+  <form class="TicketsForm" action="">
+    <div class="row">
+
+        <div  class="col">
+          <input type="text"  class="form-control" placeholder="Nombre">
+        </div>
+
+        <div  class="col">
+          <input type="text"  class="form-control" placeholder="Apellido">
+        </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+          </div>
+
+          <div class="col" class="labelTicketQuantity">
+            <label for="cantidad" class="form-label">Cantidad</label>
+            <input id="ticketsQuantity" type="text"  class="form-control" placeholder="Cantidad" class="ticketsQuantity">
+          </div>
+
+          <div  class="col" class="labelTicketCategory">
+            <label for="Categoria" class="form-label">Categoría</label>
+            <select class="form-select" id="categoria"  aria-label="Default select example">
+                <option value="estudiante">Estudiante</option>
+                <option value="trainee">Trainee</option>
+                <option value="junior">Junior</option>
+            </select>
+          </div>
+
+          <input class="form-control form-control-lg" type="text" class="totalapagar" placeholder="Total a pagar: $" aria-label=".form-control-lg example">
+
+    </div>
+  </form>
+
+       <button id="ticketsBorar" type="button" class="btn btn-success btn-lg " >    Borrar    </button>
+       <button type="button" id="ticketsResumen" class="btn btn-success btn-lg" clickon="resumen()">    Resumen   </button>
+
+
+  <footer>
+    <ul>
+      <li>
+        <a href="">Preguntas frecuentes</a>
+      </li>
+      <li>
+        <a href="">Contáctanos</a>
+      </li>
+      <li>
+        <a href="">Prensa</a>
+      </li>
+      <li>
+        <a href="">Conferencias</a>
+      </li>
+      <li>
+        <a href="">Terminos y condiciones</a>
+      </li>
+      <li>
+        <a href="">Privacidad</a>
+      </li>
+      <li>
+        <a href="">Estudiantes</a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+</html>
